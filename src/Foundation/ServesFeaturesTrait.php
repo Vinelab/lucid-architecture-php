@@ -1,0 +1,26 @@
+<?php
+
+namespace Directory\Foundation;
+
+use Illuminate\Foundation\Bus\DispatchesJobs;
+
+/**
+ * @author Abed Halawi <abed.halawi@vinelab.com>
+ */
+trait ServesFeaturesTrait
+{
+    use DispatchesJobs;
+
+    /**
+     * Serve the given feature with the given arguments.
+     *
+     * @param \Directory\Foundation\AbstractFeature $feature
+     * @param array                                 $arguments
+     *
+     * @return mixed
+     */
+    public function serve($feature, $arguments = [])
+    {
+        return $this->dispatchFromArray($feature, $arguments);
+    }
+}

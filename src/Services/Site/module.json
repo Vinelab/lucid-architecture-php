@@ -1,0 +1,7 @@
+{
+	"name": "Site",
+	"slug": "site",
+	"version": "1.0",
+	"description": "This is the description for the Site module.",
+	"enabled": true
+}
