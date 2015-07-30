@@ -2,7 +2,6 @@
 
 namespace Directory\Foundation;
 
-use Crypt;
 use TestCase as BaseTestCase;
 
 /**

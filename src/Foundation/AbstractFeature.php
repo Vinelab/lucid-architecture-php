@@ -43,9 +43,9 @@ abstract class AbstractFeature implements SelfHandling
     /**
      * Run the given job in the given queue.
      *
-     * @param  string     $job
-     * @param  array     $arguments
-     * @param  Queue|null $queue
+     * @param string     $job
+     * @param array      $arguments
+     * @param Queue|null $queue
      *
      * @return mixed
      */
